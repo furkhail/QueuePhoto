@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QueuePhoto</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="image_container_cd">image_container</string>
+    <string name="error_cache_disk">Error con el cacheo en disco.</string>
+
+</resources>

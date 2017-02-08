@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <ImageView
+            android:id="@+id/photo_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image_container_cd"
+            />
+    <ImageButton
+        android:id="@+id/icon_dislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:src="@android:drawable/ic_input_delete"
+        />
+
+    <ImageButton
+        android:id="@+id/icon_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:src="@android:drawable/ic_input_add"
+        />
+
+    <TextView
+        android:id="@+id/counter_dislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        style="@android:style/TextAppearance.Medium"
+        />
+
+    <TextView
+        android:id="@+id/counter_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        style="@android:style/TextAppearance.Medium"
+        />
+
+</RelativeLayout>
